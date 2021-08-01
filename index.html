@@ -4,6 +4,9 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Nimes Denim</title>
 </head>
 <body>
@@ -43,9 +46,9 @@
       <h2 class="visually-hidden">Новая коллекция от Nimes Denim</h2>
       <div class="promo__inner center">
         <div class="promo__inner-text-col">
-          <p>The quality you deserve</p>
-          <p>DENIM</p>
-          <a href="#">Check new collection</a>
+          <p class="promo__slogan">The quality you deserve</p>
+          <p class="promo__main-word">DENIM</p>
+          <a class="button button-wide" href="#">Check new collection</a>
         </div>
         <div class="promo__inner-picture-col">
           <img src="img/matheus.jpg" width="430" height="518" alt="Брюнетка в джинсовой куртке в пол оборота смотрит в камеру"/>
@@ -55,36 +58,36 @@
     <section class="bestsellers">
       <div class="bestsellers__inner center">
         <header class="bestsellers__header">
-          <h2>Bestsellers</h2>
-          <a href="#">View all</a>
+          <h2 class="bestsellers__title section-title">Bestsellers</h2>
+          <a href="#" class="bestsellers__view-all view-all">View all</a>
         </header>
         <ul class="bestsellers__list">
           <li class="bestsellers__item">
             <a href="#">
-              <h3>Jacket</h3>
+              <h3 class="bestsellers__title">Jacket</h3>
               <img src="img/jacket-120.jpg" width="270" height="349" alt="Парень в джинсовой куртке" />
-              <p>$120</p>
+              <p class="bestsellers__price">$120</p>
             </a>
           </li>
           <li class="bestsellers__item">
             <a href="#">
-              <h3>Overalls</h3>
+              <h3 class="bestsellers__title">Overalls</h3>
               <img src="img/overalls-140.jpg" width="270" height="349" alt="Девушка в джинсовом комбинезоне" />
-              <p>$140</p>
+              <p class="bestsellers__price">$140</p>
             </a>
           </li>
           <li class="bestsellers__item">
             <a href="#">
-              <h3>Jacket</h3>
+              <h3 class="bestsellers__title">Jacket</h3>
               <img src="img/jacket-90.jpg" width="270" height="349" alt="Девушка в джинсовой куртке" />
-              <p>$90</p>
+              <p class="bestsellers__price">$90</p>
             </a>
           </li>
           <li class="bestsellers__item">
             <a href="#">
-              <h3>Overalls</h3>
+              <h3 class="bestsellers__title">Overalls</h3>
               <img src="img/overalls-160.jpg" width="270" height="349" alt="Девушка в джинсовом комбинезоне" />
-              <p>$160</p>
+              <p class="bestsellers__price">$160</p>
             </a>
           </li>
         </ul>
@@ -93,8 +96,8 @@
     <section class="news">
       <div class="news__inner center">
         <header class="news__header">
-          <h2>News</h2>
-          <a href="#">View all</a>
+          <h2 class="news__title section-title">News</h2>
+          <a href="#" class="news__view-all view-all">View all</a>
         </header>
         <div class="news__inner-cols">
           <div class="news__inner-img-col">
@@ -102,11 +105,11 @@
           </div>
           <div class="news__inner-text-col">
             <div class="news__inner-text">
-              <h3>G- Star Updates Its Sustainable Collection</h3>
+              <h3 class="news__inner-title">G- Star Updates Its Sustainable Collection</h3>
               <time datetime="2020-02-12">Feb 12, 2020</time>
-              <p>G-Star Raw is pushing the sustainability movement forward with a collection of stretch denim items
+              <p class="news__main-text">G-Star Raw is pushing the sustainability movement forward with a collection of stretch denim items
                 for spring 2020 which is particularly designed for reuse...</p>
-              <a href="#">Read more ...</a>
+              <a href="#" class="button button-narrow">Read more ...</a>
             </div>
           </div>
         </div>
@@ -115,31 +118,31 @@
     <section class="categories">
       <div class="categories__inner center">
         <header class="categories__header">
-          <h2>Shop by category</h2>
-          <a href="#">View all</a>
+          <h2 class="categories__title section-title">Shop by category</h2>
+          <a href="#" class="categories__view-all view-all">View all</a>
         </header>
         <ul class="categories__list">
           <li class="categories__item">
             <a href="#">
-              <h3>Jeans</h3>
+              <h3 class="categories__title">Jeans</h3>
               <img src="img/jeans.jpg" width="270" height="349" alt="Девушка в джинсах" />
             </a>
           </li>
           <li class="categories__item">
             <a href="#">
-              <h3>Shirts</h3>
+              <h3 class="categories__title">Shirts</h3>
               <img src="img/shirts.jpg" width="270" height="349" alt="Парень в джинсовой рубашке" />
             </a>
           </li>
           <li class="categories__item">
             <a href="#">
-              <h3>Jackets</h3>
+              <h3 class="categories__title">Jackets</h3>
               <img src="img/jackets.jpg" width="270" height="349" alt="Парень с девушкой в дениме" />
             </a>
           </li>
           <li class="categories__item">
             <a href="#">
-              <h3>Overalls</h3>
+              <h3 class="categories__title">Overalls</h3>
               <img src="img/overalls.jpg" width="270" height="349" alt="Девушка в джинсовом комбинезоне" />
             </a>
           </li>

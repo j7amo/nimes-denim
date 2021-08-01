@@ -6,6 +6,12 @@
 
 body {
   min-width: 1200px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #151C22;
 }
 
 *,
@@ -36,6 +42,79 @@ ul {
   min-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 27px 24px;
+  background-color: #151C22;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.bestsellers__price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.bestsellers__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.categories__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main-footer {
+  background-color: #151C22;
+}
+
+.main-footer__nav-item {
+  color: #FFFFFF;
+}
+
+.news__inner-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.news__main-text {
+  font-weight: normal;
+  color: #727A82;
+}
+
+.promo {
+  background-color: #F1F2F4;
+}
+
+.promo__main-word {
+  font-family: 'Anton', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 128px;
+  line-height: 188px;
+}
+
+.promo__slogan {
+  color: #727A82;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.view-all {
+  font-weight: 500;
+  padding: 7px 5px;
+  border-bottom: 2px solid #151C22;
 }
 
 .visually-hidden {
