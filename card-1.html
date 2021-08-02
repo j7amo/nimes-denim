@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Nimes Denim</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation center">
+      <ul class="site-navigation">
+        <li class="site-navigation__item">
+          <a href="#">Woman</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#">Man</a>
+        </li>
+        <li class="site-navigation__item">
+          <a href="#">New</a>
+        </li>
+      </ul>
+      <a class="site-logo" href="index.html">
+        <img src="img/nimes-logo.svg" width="73" height="19" alt="Логотип Nimes Denim"/>
+      </a>
+      <ul class="user-navigation">
+        <li class="user-navigation__item">
+          <a href="#">
+            <img src="img/search-icon.svg" width="20" height="20" alt="Иконка лупы, которая отвечает за поиск по сайту"/>
+          </a>
+        </li>
+        <li class="user-navigation__item">
+          <a href="#">
+            <img src="img/cart-icon.svg" width="22" height="20" alt="Иконка корзинки, которая отвечает за переход в корзину покупателя"/>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h1 class="visually-hidden">Card details</h1>
+      <div class="card__inner center">
+        <div class="card__pictures-col">
+          <button class="card__previous" type="button">
+            <span class="visually-hidden">Предыдущее фото</span>
+          </button>
+          <div class="card__pictures-inner-container">
+            <img class="card__main-picture" src="img/card-details-main-photo.png" width="400" height="523" alt="Девушка в джинсовом комбинезоне, одна рука в кармане"/>
+            <ul class="card__previews-list">
+              <li class="card__previews-item">
+                <img src="img/card-details-preview-1.png" width="85" height="113" alt="Девушка в джинсовом комбинезоне сидит задумчиво подперев рукой голову и смотрит вниз"/>
+              </li>
+              <li class="card__previews-item">
+                <img src="img/card-details-preview-2.png" width="85" height="113" alt="Девушка в джинсовом комбинезоне идёт"/>
+              </li>
+              <li class="card__previews-item">
+                <img src="img/card-details-preview-3.png" width="85" height="113" alt="Девушка в джинсовом комбинезоне стоит спиной к зрителю, обе руки - в задних карманах"/>
+              </li>
+              <li class="card__previews-item">
+                <img src="img/card-details-preview-4.png" width="85" height="113" alt="Девушка в джинсовом комбинезоне сидит задумчиво подперев рукой голову и смотрит вверх"/>
+              </li>
+            </ul>
+          </div>
+          <button class="card__next"  type="button">
+            <span class="visually-hidden">Следующее фото</span>
+          </button>
+        </div>
+        <div class="card__text-col">
+          <h2 class="card__main-header section-title">Overalls</h2>
+          <p class="card__description">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist.
+            Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+          <form class="card__order">
+            <fieldset class="card__color-picker">
+              <legend>Color</legend>
+              <div class="card__color-picker-inputs">
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-color-pick"/>
+                  <span class="visually-hidden">Blue gray</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-color-pick"/>
+                  <span class="visually-hidden">Blue</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-color-pick"/>
+                  <span class="visually-hidden">Gray</span>
+                </label>
+              </div>
+            </fieldset>
+            <fieldset class="card__size-picker">
+              <legend>Size</legend>
+              <div class="card__size-picker-inputs">
+                <label>
+                  <input  class="visually-hidden" type="radio" name="card-size-pick"/>
+                  <span>XS</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-size-pick"/>
+                  <span>S</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-size-pick"/>
+                  <span>M</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-size-pick"/>
+                  <span>L</span>
+                </label>
+                <label>
+                  <input class="visually-hidden" type="radio" name="card-size-pick"/>
+                  <span>XL</span>
+                </label>
+              </div>
+            </fieldset>
+            <p class="card__price">$160</p>
+            <button type="submit" class="button button-wide">Add to cart</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="similar">
+      <div class="similar__inner center">
+        <header class="similar__header">
+          <h2 class="similar__main-title section-title">You may also like</h2>
+          <a href="catalogue.html" class="similar__view-all view-all">View all</a>
+        </header>
+        <ul class="similar__list">
+          <li class="similar__item">
+            <a class="similar__card" href="#">
+              <h3 class="similar__title">Overalls</h3>
+              <img class="similar__photo" src="img/similar-1.png" width="270" height="349" alt="Парень в джинсовой куртке" />
+              <p class="similar__price">$140</p>
+            </a>
+          </li>
+          <li class="similar__item">
+            <a class="similar__card" href="#">
+              <h3 class="similar__title">Overalls</h3>
+              <img class="similar__photo" src="img/similar-2.png" width="270" height="349" alt="Девушка в джинсовом комбинезоне" />
+              <p class="similar__price">$110</p>
+            </a>
+          </li>
+          <li class="similar__item">
+            <a class="similar__card" href="#">
+              <h3 class="similar__title">Jacket</h3>
+              <img class="similar__photo" src="img/similar-3.png" width="270" height="349" alt="Девушка в джинсовой куртке" />
+              <p class="similar__price">$70</p>
+            </a>
+          </li>
+          <li class="similar__item">
+            <a class="similar__card" href="#">
+              <h3 class="similar__title">Jacket</h3>
+              <img class="similar__photo" src="img/similar-4.png" width="270" height="349" alt="Девушка в джинсовом комбинезоне" />
+              <p class="similar__price">$60</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__inner center">
+      <a class="main-footer__logo" href="index.html">
+        <img src="img/nimes-logo-white.svg" width="73" height="19" alt="Логотип Nimes Denim"/>
+      </a>
+      <ul class="main-footer__nav-list">
+        <li class="main-footer__nav-item">
+          <a href="#">Shop</a>
+        </li>
+        <li class="main-footer__nav-item">
+          <a href="#">Delivery</a>
+        </li>
+        <li class="main-footer__nav-item">
+          <a href="#">Service</a>
+        </li>
+        <li class="main-footer__nav-item">
+          <a href="#">Sitemap</a>
+        </li>
+        <li class="main-footer__nav-item">
+          <a href="#">Contacts</a>
+        </li>
+      </ul>
+      <ul class="main-footer__socials-list">
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/facebook-logo.svg" width="12" height="20" alt="Логотип Facebook"/>
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/instagram-logo.svg" width="20" height="20" alt="Логотип Instagram"/>
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/pinterest-logo.svg" width="21" height="21" alt="Логотип Pinterest"/>
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/twitter-logo.svg" width="22" height="18" alt="Логотип Twitter"/>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
